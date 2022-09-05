@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #40514e; 
+    text-align: center;  
+}
+  
+hr {
+    border: none;
+    border-top: dotted; 
+    border-color: #8ba3a3; 
+    width: 4%;
+    margin: 100px auto;
+}
+
+h1 {
+    margin: 50 auto 0 auto;
+    font-family: "lobster", cursive;
+    font-size: 100px;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: rgb(78, 151, 151);
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: #11999e;
+    margin: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #e8f6f6;
+}
+
+.top-container {
+    background-color: #dff6f0;
+    position: relative;
+    padding-top: 100px;
+}
+  
+.middle-container {
+    margin: 100px auto;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 50px;
+}
+
+.first-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.second-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+  
+.computer-image {
+    border-radius: 50%;
+    height: 30%;
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.second-image {
+    border-radius: 50%;
+    height: 30%;
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+  
+.skills {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.skill-row {
+    border: auto auto 30px auto;
+}
+
+.contact-me {
+    width: 40%;
+    margin: 40px auto 50px auto;
+}
+
+.btn {
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    background-color:#599bb3;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:20px;
+    font-weight:bold;
+    padding:11px 16px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    position:relative;
+    top:1px;
+}
+
+.btn:hover {
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color:#408c99;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 14px;
+    padding: 20px 0;
+}
